@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
     template:`
         <h1>{{title}}</h1>
         <nav>
-            <a routerLink="/heroes" routerLinkActive="active">显示英雄列表</a>
-            <a routerLink="/dashboard" routerLinkActive="active">显示另一个面板</a>
+            <a routerLink="/heroes" routerLinkActive="active">全部英雄列表</a>
+            <a routerLink="/dashboard" routerLinkActive="active">英雄Top4</a>
         </nav>
         <router-outlet></router-outlet>
     `,
