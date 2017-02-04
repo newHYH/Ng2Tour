@@ -2,7 +2,7 @@
 * @Author: anchen
 * @Date:   2017-02-02 12:47:23
 * @Last Modified by:   anchen
-* @Last Modified time: 2017-02-02 15:28:54
+* @Last Modified time: 2017-02-04 13:30:14
 */
   .selected {
     background-color: #CFD8DC !important;
@@ -50,4 +50,17 @@
     height: 1.8em;
     margin-right: .8em;
     border-radius: 4px 0 0 4px;
+  }
+  button.delete {
+    float:right;
+    margin-top: 5px;
+    margin-right: .8em;
+    background-color: gray ;
+    color:white;
+    border-radius: 1px;
+    border:0px;
+  }
+  button.delete:hover{
+    cursor:pointer; 
+    background-color:#cdd;
   }
